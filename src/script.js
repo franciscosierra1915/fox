@@ -24,7 +24,7 @@ const gltfLoader = new GLTFLoader()
 let mixer = null;
 let action;
 gltfLoader.load(
-    '/models/Fox/glTF/Fox.gltf',
+    './models/Fox/glTF/Fox.gltf',
     (gltf) =>
     {
         gltf.scene.scale.set(0.025, 0.025, 0.025)
