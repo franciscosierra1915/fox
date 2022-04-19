@@ -1,17 +1,5 @@
-# Three.js Journey
+# Fox
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+I created this fox animation using Three.js and following Bruno Simon's [Three JS Journey](https://threejs-journey.com/) course.
 
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
-# fox
+You can click on the fox to stop him and click on him again to make him run. 
